@@ -1,0 +1,73 @@
+/*------------------slideshow-------------------------*/
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*----------------------event cards------------------------*/
+
+.panel, .flip {
+  padding: 1%;
+  text-align: center;
+  background-color: rgba(234, 198, 150, 0.40);
+  border: solid 1px #c3c3c3;
+  font-size: large;
+}
+
+#lef{
+    color: #65451F;
+    text-align: left;
+    margin-left: 5%;
+    font-size: large;
+    font-weight: bold;
+}
+#rig{
+    text-align: right;
+    margin-right: 10%;
+}
+.flip {
+  cursor: pointer;
+}
+.panel {
+  padding: 0.5%;
+  display: none;
+}
+
+#p1{
+  color: #65451F;;
+  font-family: Inter;
+  font-size: xx-large;
+  font-weight: bold;
+}
+

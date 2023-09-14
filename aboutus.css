@@ -1,0 +1,30 @@
+#topic{
+    color: #C8AE7D;
+    font-family: Inter;
+    font-size: xx-large;
+}
+
+#t_p,#points{
+font-family: Inter;
+font-size: medium;
+font-style: normal;
+text-align: justify;
+}
+
+#top{
+    color: #65451F;
+    font-family: Inter;
+    font-size: xx-large;
+}
+
+.mis{
+    background-color: rgba(234, 198, 150, 0.40); 
+}
+
+input{
+    border-radius: 56px;
+    background: #C8AE7D;
+    padding: 3%;
+    margin-left: 30%;
+    margin-top: 10%;
+}

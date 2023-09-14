@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="registration.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="page_head">
+        <div class="row">
+            <div class="col-1"></div>
+         <div class="col-2">
+             <img id="unilogo" src="images/image1.png">
+         </div>
+         <div class="col-7">
+            <p id="title">Computer Club - University of Kelaniya</p>
+         </div>
+         <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="navigation_bar">
+        <div class="row">
+            <div class="col-7"></div>
+            <div class="col-5">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li style="color: #65451F;text-decoration-line: underline;">Registration</li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------main para..----------------------------->
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <p id="topic">Join the KUCC Community Today</p>
+            <p id="t_p">
+                Ready to embark on a journey of tech exploration, innovation, and collaboration? 
+                Register now to become a part of the Kelaniya University Computer Club (KUCC) community. 
+                Whether you're a student, a tech enthusiast, or a professional eager to connect with like-minded 
+                individuals, KUCC welcomes you with open arms. As a member, you'll gain access to exclusive 
+                workshops, tech talks, hackathons, and a supportive network of fellow tech enthusiasts. Join us 
+                in shaping the future of technology. Register today and be part of our vibrant community!
+            </p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+    <!-------------------------------Registration form------------------------------->
+    <div class="registration_form">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <img id="im3" src="images/lumiere-blond-man-sitting-behind-computer-and-looking-at-job-application-1 2.png" alt="lumiere blond man sitting behind computer and looking at job application">
+            </div>
+            <div class="col-5">
+                <p id="fram-topic">Registration</p>
+
+                <form name="registrationForm" onsubmit="return validateForm()" method="post" action="process_form.php">
+            
+                    <input type="text" class="feedback-input" placeholder="Full Name" name="fullName" required>
+                    <div id="fullNameError" class="error"></div><br>
+            
+                    <input type="text" class="feedback-input" placeholder="Phone Number"  name="phoneNumber" required>
+                    <div id="phoneNumberError" class="error"></div><br>
+            
+                    <input type="email" class="feedback-input" placeholder="Email"  name="email" required>
+                    <div id="emailError" class="error"></div><br>
+            
+                    <input type="email" class="feedback-input" placeholder="Confirm Email" name="confirmEmail" required>
+                    <div id="confirmEmailError" class="error"></div><br>
+            
+                    <input type="text" class="feedback-input" placeholder="University Id" name="universityId" required>
+                    <div id="universityIdError" class="error"></div><br>
+            
+                    <input type="text" class="feedback-input" placeholder="Program Of Study" name="programOfStudy" required>
+                    <div id="programOfStudyError" class="error"></div><br>
+            
+                    <input type="text" class="feedback-input" placeholder="Year Of Study" name="yearOfStudy" required>
+                    <div id="yearOfStudyError" class="error"></div><br>
+            
+                    <input type="submit" value="Register">
+                </form>
+
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <footer>
+        &copy; 2023 Computer Club. All Rights Reserved
+    </footer>
+    
+    <script src="club.js"></script>
+
+    
+</body>
+</html>

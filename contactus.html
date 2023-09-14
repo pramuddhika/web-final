@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+
+    <div class="page_head">
+        <div class="row">
+            <div class="col-1"></div>
+         <div class="col-2">
+             <img id="unilogo" src="images/image1.png">
+         </div>
+         <div class="col-7">
+            <p id="title">Computer Club - University of Kelaniya</p>
+         </div>
+         <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="navigation_bar">
+        <div class="row">
+            <div class="col-7"></div>
+            <div class="col-5">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li style="color: #65451F;text-decoration-line: underline;">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------main para..----------------------------->
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <p id="topic">We're Here to Connect and Assist</p>
+            <p id="t_p">
+                Have questions, suggestions, or just want to reach out to us? We'd love to hear from you! At KUCC, we value your 
+                input and are committed to providing the support you need. Whether you're a prospective member, a partner interested 
+                in collaboration, or simply curious about our club, don't hesitate to get in touch. Feel free to drop us a message using 
+                the contact form below, and our team will respond promptly. Alternatively, you can find our contact details for direct 
+                communication. We look forward to connecting with you and being a part of your tech journey.
+            </p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+    <!------------------------contact information------------------->
+    <div class="infor">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <p id="p1">Office Address</p>
+                <p id="t_p">ICT Centre, <br>
+                            University of Kelaniya,<br>
+                            Sri Lanka.</p>
+                <img id="im1" src="images/Phone.png"> +94 11 2910 163 <br>
+                <img id="im1" src="images/Mail.png"> dictc@kln.ac.lk
+            </div>
+            <div class="col-4">
+                <p id="p1">Office Hours</p>
+                <p id="t_p">Monday : 9:00 AM - 5:00 PM <br>
+                            Tuesday : 9:00 AM - 5:00 PM <br>
+                            Wednesday : 9:00 AM - 5:00 PM <br>
+                            Thursday : 9:00 AM - 5:00 PM <br>
+                            Friday : 9:00 AM - 5:00 PM <br>
+                            Saturday : 10:00 AM - 2:00 PM <br>
+                            Sunday : Closed</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <!----------------------contact us form--------------------------->
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4">
+            <img id="im2" src="images/casual-life-3d-young-man-in-headset-using-computer 2.png" alt="young man in headset using computer">
+        </div>
+        <div class="col-5">
+            <p id="fram-topic">Countac Us</p>
+             
+            <form name="contactForm" onsubmit="return validateForm()" method="post" action="process_form.php">
+                <input name="name" type="text" class="feedback-input" placeholder="Name" /><br>
+                <input name="email" type="text" class="feedback-input" placeholder="Email" /><br>
+                <textarea name="text" class="feedback-input" placeholder="Message"></textarea><br>
+                <input type="submit" value="SUBMIT" />
+                <div id="errorContainer"></div>
+    </form>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    
+
+
+    <!--footer-->
+    <footer>
+        &copy; 2023 Computer Club. All Rights Reserved
+    </footer>
+    
+    <script src="club.js"></script>
+    
+</body>
+</html>
